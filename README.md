@@ -86,7 +86,7 @@ The system is containerized using Docker and deployed on Kubernetes. Each compon
 ### Setup
 1. Clone the repository:
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/2series/crypto-price-prediction.git
    cd crypto-price-prediction
    ```
 
