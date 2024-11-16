@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: market-sentiment
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: market-sentiment
+  template:
+    metadata:
+      labels:
+        app: market-sentiment
+    spec:
+      containers:
+      - name: market-sentiment
+        image: market-sentiment:latest
+        ports:
+        - containerPort: 80

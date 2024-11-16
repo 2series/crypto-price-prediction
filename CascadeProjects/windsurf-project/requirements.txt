@@ -1,0 +1,6 @@
+websocket-client
+pandas
+xgboost
+flask
+transformers
+requests

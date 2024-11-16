@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: prediction-generator
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: prediction-generator
+  template:
+    metadata:
+      labels:
+        app: prediction-generator
+    spec:
+      containers:
+      - name: prediction-generator
+        image: prediction-generator:latest
+        ports:
+        - containerPort: 80

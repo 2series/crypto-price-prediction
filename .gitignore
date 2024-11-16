@@ -1,0 +1,25 @@
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Environment variables
+.env
+
+# Logs
+*.log
+
+# Databases
+*.sqlite3
+*.db
+
+# Node.js
+node_modules/
+
+# Build directories
+dist/
+build/
