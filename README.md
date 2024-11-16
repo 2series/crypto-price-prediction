@@ -1,7 +1,7 @@
 # Real-Time Crypto Price Prediction System
 
 ## Overview
-This project aims to build a real-time machine learning system that predicts cryptocurrency prices 5 minutes into the future. The system is built using Python, Rust, large language models (LLMs), and Kubernetes.
+This project aims to build a real-time machine learning system that predicts cryptocurrency prices 5 minutes into the future. The system is built using Python, large language models (LLMs), and Kubernetes.
 
 ## System Architecture
 The system is divided into several components:
